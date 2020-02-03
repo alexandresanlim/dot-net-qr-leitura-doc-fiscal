@@ -12,6 +12,10 @@ namespace LeituraDocFiscal2Info.Model
 
         public string Total { get; set; }
 
+        public string Url { get; set; }
+
+        public string Html { get; set; }
+
         public decimal TotalDecimal { get { return Convert.ToDecimal(Total); } }
 
         public string TotalPresentation { get { return TotalDecimal.ToString("C"); } }
