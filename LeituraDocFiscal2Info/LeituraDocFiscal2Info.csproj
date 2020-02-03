@@ -6,6 +6,7 @@
     <RepositoryUrl>https://github.com/alexandresanlim/LeituraDocFiscal2Info</RepositoryUrl>
     <PackageProjectUrl>https://github.com/alexandresanlim/LeituraDocFiscal2Info</PackageProjectUrl>
     <Authors>Alexandre Sanlim</Authors>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
