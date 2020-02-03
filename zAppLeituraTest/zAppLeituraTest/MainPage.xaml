@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="zAppLeituraTest.MainPage">
+
+    <Grid Padding="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <StackLayout Grid.Row="0" IsVisible="False" x:Name="info">
+            <!-- Place new controls here -->
+            <StackLayout Spacing="0">
+                <Label Text="Chave de acesso" FontAttributes="Bold"/>
+                <Label x:Name="lbAccesskey"/>
+            </StackLayout>
+
+            <StackLayout Spacing="0">
+                <Label Text="Estabelecimento" FontAttributes="Bold"/>
+                <Label x:Name="lbCompany"/>
+            </StackLayout>
+
+            <StackLayout Spacing="0">
+                <Label Text="Total" FontAttributes="Bold"/>
+                <Label x:Name="lbTotal"/>
+            </StackLayout>
+
+            <StackLayout Spacing="0">
+                <Label Text="Código UF" FontAttributes="Bold"/>
+                <Label x:Name="lbUfCode"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Ano" FontAttributes="Bold"/>
+                <Label x:Name="lbYear"/>
+
+                <Label Text="Mês" FontAttributes="Bold"/>
+                <Label x:Name="lbMonth"/>
+            </StackLayout>
+
+            <StackLayout Spacing="0">
+                <Label Text="CNPJ do Estabelecimento" FontAttributes="Bold"/>
+                <Label x:Name="lbCnpj"/>
+            </StackLayout>
+
+            <StackLayout Spacing="0">
+                <Label Text="Doc Modelo" FontAttributes="Bold"/>
+                <Label x:Name="lbDocModel"/>
+            </StackLayout>
+
+            <StackLayout Spacing="0">
+                <Label Text="Doc Serie" FontAttributes="Bold"/>
+                <Label x:Name="lbDocSerie"/>
+            </StackLayout>
+
+            <StackLayout Spacing="0">
+                <Label Text="Doc Numero" FontAttributes="Bold"/>
+                <Label x:Name="lbDocNumber"/>
+            </StackLayout>
+
+
+        </StackLayout>
+
+        <StackLayout Grid.Row="1">
+            <Button Text="Ler QrCode" Clicked="Button_Clicked" VerticalOptions="EndAndExpand"/>
+        </StackLayout>
+
+    </Grid>
+    
+    
+</ContentPage>
