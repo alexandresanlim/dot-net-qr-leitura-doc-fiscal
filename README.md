@@ -13,8 +13,8 @@ Quando o QRCode é lido, retorno uma URL para consulta, assim extraio os dados q
 ## Como Usar
 
 #### Instale este pacote no seu projeto:
-[![Nuget](https://img.shields.io/nuget/dt/Slack.Exception.Send)](https://www.nuget.org/packages/Slack.Exception.Send)
-[![Nuget](https://img.shields.io/nuget/v/Slack.Exception.Send)](https://www.nuget.org/packages/Slack.Exception.Send)
+[![Nuget](https://img.shields.io/nuget/dt/LeituraDocFiscal2Info)](https://www.nuget.org/packages/LeituraDocFiscal2Info)
+[![Nuget](https://img.shields.io/nuget/v/LeituraDocFiscal2Info)](https://www.nuget.org/packages/LeituraDocFiscal2Info)
 
 #### No seu código:
 ```csharp
