@@ -22,8 +22,10 @@ DocFiscal.Read(qrCodeReturn);
 ## Extra
 Neste projeto tem um App em Xamarin com leitor de QRCode que pode ser usado para testar.
 
+![alt text](https://imgur.com/MHtjSww.jpg)
+
 ## Considerações Finais
-Pq? Precisava pegar ao meno o valor e não encontrei nenhuma API (free) que fizesse isso.
+Pq? Precisava pegar ao menos o valor total da nf, e não encontrei nenhuma API (free) que fizesse isso.
 
 Contribuições são bem vindas!
 
