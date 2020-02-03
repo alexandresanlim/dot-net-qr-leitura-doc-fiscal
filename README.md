@@ -21,6 +21,7 @@ DocFiscal.Read(qrCodeReturn);
 
 ## Extra
 Neste projeto tem um App em Xamarin com leitor de QRCode que pode ser usado para testar.
+![alt text](https://imgur.com/undefined)
 
 ## Considerações Finais
 Pq? Precisava pegar ao meno o valor e não encontrei nenhuma API (free) que fizesse isso.
