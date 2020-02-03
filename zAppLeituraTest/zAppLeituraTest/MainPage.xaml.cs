@@ -35,7 +35,7 @@ namespace zAppLeituraTest
                         }
             });
 
-            var docINfo = result.Text.Read();
+            var docINfo = await result.Text.ReadAsync();
 
             info.IsVisible = true;
 
