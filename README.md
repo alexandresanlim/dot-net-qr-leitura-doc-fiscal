@@ -1,0 +1,1 @@
+# LeituraDocFiscal2Info
