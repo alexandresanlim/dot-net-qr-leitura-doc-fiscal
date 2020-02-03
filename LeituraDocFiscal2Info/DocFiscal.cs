@@ -7,8 +7,13 @@ using System.Text.RegularExpressions;
 
 namespace LeituraDocFiscal2Info
 {
-    public static class UrlInfo
+    public static class DocFiscal
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="url">Retorno do QrCode Ex: "http://www.fazenda.pr.gov.br/nfce/qrcode/?p=...."</param>
+        /// <returns>Informações da URL passada</returns>
         public static DocInfo Read(this string url)
         {
             using (var client = new WebClient())
