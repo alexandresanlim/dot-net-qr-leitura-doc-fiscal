@@ -11,6 +11,12 @@ Leia QrCode de NFC-e e transforme em dados.
 Quando o QRCode é lido, retorno uma URL para consulta, assim extraio os dados que retornaram da página HTML.
 
 ## Como Usar
+
+#### Instale este pacote no seu projeto:
+[![Nuget](https://img.shields.io/nuget/dt/LeituraDocFiscal2Info)](https://www.nuget.org/packages/LeituraDocFiscal2Info)
+[![Nuget](https://img.shields.io/nuget/v/LeituraDocFiscal2Info)](https://www.nuget.org/packages/LeituraDocFiscal2Info)
+
+#### No seu código:
 ```csharp
 var qrCodeReturn = "http://www.fazenda.pr.gov.br/nfce/qrcode/?p=....";
 
