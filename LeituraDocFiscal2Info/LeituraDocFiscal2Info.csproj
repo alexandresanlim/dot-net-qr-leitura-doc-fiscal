@@ -3,6 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/alexandresanlim/LeituraDocFiscal2Info</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/alexandresanlim/LeituraDocFiscal2Info</PackageProjectUrl>
+    <Authors>Alexandre Sanlim</Authors>
   </PropertyGroup>
 
 </Project>
