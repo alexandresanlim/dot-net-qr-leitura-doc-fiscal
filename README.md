@@ -31,8 +31,6 @@ Neste projeto tem um App em Xamarin com leitor de QRCode que pode ser usado para
 <img src="https://imgur.com/MHtjSww.jpg" width="250"/>
 
 ## Considerações Finais
-Pq? Precisava pegar ao menos o valor total da nf, e não encontrei nenhuma API (free) que fizesse isso.
+Por que? Precisava pegar ao menos o valor total da nf, e não encontrei nenhuma API (free) que fizesse isso.
 
 Contribuições são bem vindas!
-
-Lembre-se: Imposto é Roubo, use com moderação.
